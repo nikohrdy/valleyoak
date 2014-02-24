@@ -20,18 +20,22 @@
       </a>
  
       <!-- Be sure to leave the brand out there if you want it shown -->
-      <%= link_to 'Valley Oak Investments', '#', :class => 'brand' %>
+      <%= link_to 'Valley Oak Investments', root_path, :class => 'brand' %>
  
       <!-- Everything you want hidden at 940px or less, place within here -->
       <div class="nav-collapse collapse">
         <!-- .nav, .navbar-search, .navbar-form, etc -->
  		<ul class="nav">
 			<li>
-				<%= link_to 'Images', '#' %>
+				<%= link_to 'About', '#' %>
 			</li>
  			<li>
-				<%= link_to 'Form', '#' %>
-			</li><li>
+				<%= link_to 'Portfolio', '#' %>
+			</li>
+			<li>
+				<%= link_to 'Tweet', social_path %>
+			</li>
+			<li>
 				<%= link_to 'Contact', '#' %>
 			</li>
  		</ul>
