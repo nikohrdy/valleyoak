@@ -33,7 +33,7 @@ group :doc do
 end
 
 
-gem "twitter-bootstrap-rails"
+ gem "twitter-bootstrap-rails"
 
 
 
